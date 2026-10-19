@@ -1,0 +1,98 @@
+{
+  "product": "Northwind",
+  "headline": "Make a weekend plan everyone can follow",
+  "subhead": "Northwind helps friends organize trips, split costs, and keep track of who’s bringing what.",
+  "cta": "Start planning",
+  "secondaryCta": "See a sample",
+  "note": "Free for your first three plans.",
+  "nav": [
+    "My plans",
+    "Calendar",
+    "Tasks",
+    "Expenses",
+    "Friends"
+  ],
+  "pageTitle": "Cabin weekend",
+  "pageSummary": "6 friends are planning two nights at Pine Creek, with one expense left to review.",
+  "primaryAction": "Share plan",
+  "done": "Plan shared",
+  "statusLabel": "In progress",
+  "metrics": [
+    {
+      "label": "Planned cost",
+      "value": "$480 total"
+    },
+    {
+      "label": "Equal split",
+      "value": "$80 each"
+    },
+    {
+      "label": "Tasks completed",
+      "value": "7 of 10 tasks"
+    }
+  ],
+  "table": {
+    "columns": [
+      "Name",
+      "Detail",
+      "Value",
+      "Status"
+    ],
+    "rows": [
+      {
+        "name": "Cabin booking",
+        "detail": "Maya Chen · November 6–8",
+        "value": "$360",
+        "status": "ok"
+      },
+      {
+        "name": "Shared groceries",
+        "detail": "Jordan Ellis · Two dinners and breakfast",
+        "value": "$72",
+        "status": "ok"
+      },
+      {
+        "name": "Trail permits",
+        "detail": "Sam Patel · Confirm group rate",
+        "value": "$24",
+        "status": "review"
+      },
+      {
+        "name": "Firewood",
+        "detail": "Alex Rivera · Buy at the campground",
+        "value": "$24",
+        "status": "ok"
+      }
+    ]
+  },
+  "chat": {
+    "question": "What would everyone owe if we split the weekend equally?",
+    "tool": "calculate_plan_split",
+    "toolArgs": "plan_id: cabin_weekend, split: equal, people: 6",
+    "answer": "The four planned expenses total $480, which comes to $80 per person for 6 friends. That includes $24 for trail permits, which Sam still needs to confirm.",
+    "followUp": "Would you like me to add this estimate to the plan?"
+  },
+  "code": {
+    "comment": "# Get the cabin weekend's shared expenses",
+    "command": "curl https://api.northwind.example/v1/plans/cabin_weekend/expenses -H \"Authorization: Bearer $NORTHWIND_TOKEN\""
+  },
+  "sms": [
+    {
+      "from": "business",
+      "text": "Maya shared the cabin weekend plan with you on Northwind. November 6–8, estimated at $80 each: northwind.example/p/cabin"
+    },
+    {
+      "from": "customer",
+      "text": "I'm in. Can you put me down for bringing the coffee?"
+    },
+    {
+      "from": "business",
+      "text": "Added “Bring coffee” to your tasks for the cabin weekend. Your plan now has 11 tasks, with 7 completed."
+    }
+  ],
+  "card": {
+    "title": "Cabin weekend",
+    "body": "November 6–8 · Pine Creek",
+    "metric": "$80 estimated per person"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "version": 1,
+  "system": "northwind",
+  "product": "Northwind",
+  "texture": "technical",
+  "surfaces": [
+    "web-app",
+    "marketing",
+    "code",
+    "chat",
+    "messaging",
+    "mcp-apps"
+  ],
+  "colors": {
+    "roles": [
+      "background",
+      "foreground",
+      "card",
+      "card-foreground",
+      "popover",
+      "popover-foreground",
+      "primary",
+      "primary-foreground",
+      "secondary",
+      "secondary-foreground",
+      "muted",
+      "muted-foreground",
+      "accent",
+      "accent-foreground",
+      "destructive",
+      "destructive-foreground",
+      "success",
+      "success-foreground",
+      "warning",
+      "warning-foreground",
+      "border",
+      "input",
+      "ring",
+      "overlay",
+      "chart-1",
+      "chart-2",
+      "chart-3",
+      "chart-4",
+      "chart-5",
+      "sidebar",
+      "sidebar-foreground",
+      "sidebar-primary",
+      "sidebar-primary-foreground",
+      "sidebar-accent",
+      "sidebar-accent-foreground",
+      "sidebar-border",
+      "sidebar-ring",
+      "transparent",
+      "current",
+      "inherit"
+    ]
+  },
+  "fonts": {
+    "families": [
+      "sans",
+      "mono",
+      "display"
+    ],
+    "cssFamilies": [
+      "Instrument Sans Variable",
+      "JetBrains Mono Variable",
+      "Instrument Serif"
+    ]
+  },
+  "weights": {
+    "normal": 400,
+    "medium": 500,
+    "semibold": 600
+  },
+  "text": {
+    "steps": [
+      "xs",
+      "sm",
+      "base",
+      "lg",
+      "xl",
+      "2xl",
+      "3xl",
+      "4xl",
+      "5xl",
+      "6xl"
+    ],
+    "productMax": "3xl"
+  },
+  "spacing": {
+    "steps": [
+      0,
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      16,
+      20,
+      24,
+      32,
+      40,
+      48,
+      64
+    ]
+  },
+  "radius": {
+    "steps": [
+      "none",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+      "full"
+    ]
+  },
+  "shadow": {
+    "steps": [
+      "none",
+      "xs",
+      "sm",
+      "md",
+      "lg"
+    ]
+  },
+  "motion": {
+    "durations": [
+      0,
+      150,
+      220,
+      320
+    ],
+    "easings": [
+      "linear",
+      "out",
+      "in-out"
+    ],
+    "maxDuration": 400,
+    "enterScale": 0.95
+  },
+  "voice": {
+    "uiCase": "sentence",
+    "emoji": "never"
+  },
+  "rules": {
+    "no-raw-color": "error",
+    "no-palette-color": "error",
+    "no-arbitrary-value": "error",
+    "type-scale": "error",
+    "font-weight": "error",
+    "font-family": "error",
+    "spacing-scale": "error",
+    "radius-scale": "error",
+    "shadow-scale": "error",
+    "motion-duration": "error",
+    "motion-easing": "error",
+    "no-scale-zero": "error",
+    "no-gradient-text": "warn",
+    "ui-case": "warn",
+    "no-emoji": "warn",
+    "no-token-override": "error",
+    "glass-on-content": "warn",
+    "display-size": "warn"
+  },
+  "ignore": [
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/dist/**",
+    "**/auto-design.css",
+    "**/*.d.ts"
+  ],
+  "lockedNamespaces": [
+    "--color-*",
+    "--font-*",
+    "--text-*",
+    "--font-weight-*",
+    "--tracking-*",
+    "--leading-*",
+    "--radius-*",
+    "--shadow-*",
+    "--inset-shadow-*",
+    "--drop-shadow-*",
+    "--text-shadow-*",
+    "--blur-*",
+    "--ease-*",
+    "--animate-*"
+  ],
+  "theme": {
+    "product": "Northwind",
+    "texture": "technical",
+    "radius": 8,
+    "defaultMode": "light",
+    "colors": {
+      "light": {
+        "background": "#ffffff",
+        "foreground": "#0c0a08",
+        "card": "#ffffff",
+        "card-foreground": "#0c0a08",
+        "popover": "#ffffff",
+        "popover-foreground": "#0c0a08",
+        "primary": "#613f1d",
+        "primary-foreground": "#fbfaf8",
+        "secondary": "#f6f4f1",
+        "secondary-foreground": "#191714",
+        "muted": "#f6f4f1",
+        "muted-foreground": "#736e69",
+        "accent": "#f6f4f1",
+        "accent-foreground": "#191714",
+        "destructive": "#d6111c",
+        "destructive-foreground": "#fbfaf8",
+        "success": "#008542",
+        "success-foreground": "#fbfaf8",
+        "warning": "#db9400",
+        "warning-foreground": "#0c0a08",
+        "border": "#d8d3cf",
+        "input": "#d8d3cf",
+        "ring": "#613f1d",
+        "overlay": "#000000",
+        "chart-1": "#613f1d",
+        "chart-2": "#b2a845",
+        "chart-3": "#0b8eb0",
+        "chart-4": "#ee9cb1",
+        "chart-5": "#a5a09a",
+        "sidebar": "#fbfaf8",
+        "sidebar-foreground": "#0c0a08",
+        "sidebar-primary": "#613f1d",
+        "sidebar-primary-foreground": "#fbfaf8",
+        "sidebar-accent": "#f6f4f1",
+        "sidebar-accent-foreground": "#191714",
+        "sidebar-border": "#e8e5e1",
+        "sidebar-ring": "#613f1d"
+      },
+      "dark": {
+        "background": "#0c0a08",
+        "foreground": "#fbfaf8",
+        "card": "#0c0a08",
+        "card-foreground": "#fbfaf8",
+        "popover": "#0c0a08",
+        "popover-foreground": "#fbfaf8",
+        "primary": "#c79a72",
+        "primary-foreground": "#0c0a08",
+        "secondary": "#292622",
+        "secondary-foreground": "#fbfaf8",
+        "muted": "#292622",
+        "muted-foreground": "#a5a09a",
+        "accent": "#292622",
+        "accent-foreground": "#fbfaf8",
+        "destructive": "#ff7266",
+        "destructive-foreground": "#0c0a08",
+        "success": "#52be76",
+        "success-foreground": "#0c0a08",
+        "warning": "#db9400",
+        "warning-foreground": "#0c0a08",
+        "border": "#292622",
+        "input": "#433f3b",
+        "ring": "#c79a72",
+        "overlay": "#000000",
+        "chart-1": "#c79a72",
+        "chart-2": "#bcb14f",
+        "chart-3": "#37a7ca",
+        "chart-4": "#f5a3b7",
+        "chart-5": "#77726d",
+        "sidebar": "#191714",
+        "sidebar-foreground": "#fbfaf8",
+        "sidebar-primary": "#c79a72",
+        "sidebar-primary-foreground": "#0c0a08",
+        "sidebar-accent": "#292622",
+        "sidebar-accent-foreground": "#fbfaf8",
+        "sidebar-border": "#292622",
+        "sidebar-ring": "#c79a72"
+      }
+    },
+    "brand": {
+      "50": "#fcf5f0",
+      "100": "#f6e8dc",
+      "200": "#ecd4bf",
+      "300": "#dfbb9b",
+      "400": "#c79a72",
+      "500": "#af7f53",
+      "600": "#96683b",
+      "700": "#7e552d",
+      "800": "#613f1d",
+      "900": "#52361c",
+      "950": "#35220f"
+    },
+    "text": {
+      "xs": 12,
+      "sm": 13,
+      "base": 16,
+      "lg": 20,
+      "xl": 26,
+      "2xl": 32,
+      "3xl": 40,
+      "4xl": 48,
+      "5xl": 62,
+      "6xl": 76
+    },
+    "fonts": {
+      "sans": {
+        "family": "Instrument Sans Variable",
+        "fallback": [
+          "Instrument Sans",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif"
+        ],
+        "weights": [
+          400,
+          500,
+          600
+        ]
+      },
+      "mono": {
+        "family": "JetBrains Mono Variable",
+        "fallback": [
+          "JetBrains Mono",
+          "ui-monospace",
+          "SFMono-Regular",
+          "Menlo",
+          "monospace"
+        ],
+        "weights": [
+          400,
+          500
+        ]
+      },
+      "display": {
+        "family": "Instrument Serif",
+        "fallback": [
+          "Instrument Serif",
+          "ui-serif",
+          "Georgia",
+          "serif"
+        ],
+        "weights": [
+          400
+        ]
+      }
+    }
+  }
+}
